@@ -1,0 +1,10 @@
+body {
+	display: grid;
+	grid-template-rows: 2fr 1fr 70px;
+	background-color: rgb(23, 31, 43);
+}
+
+footer img {
+	width: 100px;
+	height: 100px;
+}
