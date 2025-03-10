@@ -1,10 +1,25 @@
 body {
 	display: grid;
-	grid-template-rows: 2fr 1fr 70px;
+	grid-template-rows: 1.5fr 1fr 70px;
 	background-color: rgb(23, 31, 43);
 }
 
 footer img {
-	width: 100px;
-	height: 100px;
+	width: 70px;
+	height: 70px;
+}
+
+.location {
+	min-height: calc(300px + 20vh);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	p{
+		margin: 3px;
+		color: aliceblue;
+		font-weight: bold;
+		font-size: 1.5rem;
+	}
 }
