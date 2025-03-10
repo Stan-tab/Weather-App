@@ -4,8 +4,24 @@ body {
 	background-color: rgb(23, 31, 43);
 }
 
-footer img {
+footer img ,
+footer a{
 	width: 70px;
+	height: 70px;
+	text-decoration: none;
+	color: hsl(209, 55%, 38%);
+}
+
+footer p {
+    display: inline-block;
+    color: aliceblue;
+    vertical-align: 26px;
+    margin: 0;
+}
+
+footer {
+	background-color: rgb(1,1,1);
+	margin-top: 10px;
 	height: 70px;
 }
 
@@ -21,5 +37,50 @@ footer img {
 		color: aliceblue;
 		font-weight: bold;
 		font-size: 1.5rem;
+	}
+}
+
+.mainBox {
+	background-color: rgb(21, 29, 53);
+	display: flex;
+	align-items: center;
+	border-radius: 5px;
+	overflow-x: auto;
+	gap: 5px;
+}
+
+.mainBox::-webkit-scrollbar {
+	height: 5px;
+}
+
+.mainBox::-webkit-scrollbar-track {
+	background: hsl(209, 55%, 35%);
+}
+
+.mainBox::-webkit-scrollbar-thumb {
+	background: hsl(209, 55%, 22%);
+}
+
+.mainBox::-webkit-scrollbar-thumb:hover {
+  background: hsl(210, 81%, 17%);
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 5px;
+	padding: 25px;
+	p:first-child{
+		font-size: 1.5rem;
+	}
+	p {
+		text-align: center;
+		margin: 0;
+		color: aliceblue;
+		font-size: 1.2rem;
+		font-weight: bolder;
+		min-width: 63px;
 	}
 }
